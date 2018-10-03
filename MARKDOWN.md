@@ -15,7 +15,7 @@ An organizational app to keep students on track.
 
 - __Application Developer__ 💃🏻 [Daniella Delgado](https://github.com/danidel92) [![alt text][image]][hyperlink]
 
-[hyperlink]: https://www.instagram.com/daniellandelgado
+[hyperlink]: https://www.instagram.com/daniellandelgado/
 [image]: https://raw.githubusercontent.com/juneate/classroom-collab/master/img/instagram.png
 - Application Developer ✨ __Benjamin Banh__
 - UX/UI Designer ✨ __Sonica Katoch__
