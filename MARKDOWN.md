@@ -8,10 +8,10 @@ An organizational app to keep students on track.
   [hyperlink]: https://www.instagram.com/cathyriani/
   [image]: https://raw.githubusercontent.com/juneate/classroom-collab/master/img/instagram.png
 
-- __Interface Developer__ 💻 [Vivian Doan](https://github.com/viviandoan) [![alt text][image]][hyperlink]
+- __Interface Developer__ 💻 [Vivian Doan](https://github.com/viviandoan) [![alt text][image2]][hyperlink2]
 
-  [hyperlink]: https://www.instagram.com/vivdoan/
-  [image]: https://raw.githubusercontent.com/juneate/classroom-collab/master/img/instagram.png
+  [hyperlink2]: https://www.instagram.com/vivdoan/
+  [image2]: https://raw.githubusercontent.com/juneate/classroom-collab/master/img/instagram.png
 
 - __Application Developer__ 💃🏻 [Daniella Delgado](https://github.com/danidel92) [![alt text][image1]][hyperlink1]
 
