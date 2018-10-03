@@ -13,7 +13,7 @@ An organizational app to keep students on track.
   [hyperlink]: https://www.instagram.com/vivdoan/
   [image]: https://raw.githubusercontent.com/juneate/classroom-collab/master/img/instagram.png
 
-- __Application Developer__ 💃🏻 [Daniella Delgado] (https://github.com/danidel92) [![alt text][image]][hyperlink]
+- __Application Developer__ 💃🏻 [Daniella Delgado](https://github.com/danidel92) [![alt text][image]][hyperlink]
 
 [hyperlink] : https://www.instagram.com/daniellandelgado
 [image]: https://raw.githubusercontent.com/juneate/classroom-collab/master/img/instagram.png
