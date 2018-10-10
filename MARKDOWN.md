@@ -3,7 +3,7 @@ An organizational app to keep students on track.
 
 ## We Are TUDU!
 
-- __Project Manager__ 📝 [Cathy Riani](https://github.com/cathyriani) [![alt text][image]][hyperlink]
+- __Project Manager__ 💸 [Cathy Riani](https://github.com/cathyriani) [![alt text][image]][hyperlink]
 
   [hyperlink]: https://www.instagram.com/cathyriani/
   [image]: https://raw.githubusercontent.com/juneate/classroom-collab/master/img/instagram.png
