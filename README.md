@@ -41,6 +41,7 @@ An organizational app to keep students on track.
 
 ## Room for Improvement
 
+- Ensure more consistency throughout all breakpoints/better responsivity
 
 
 
