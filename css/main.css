@@ -15,19 +15,17 @@ body {
 .photo1, .banner {
   width: 100%;
   position: absolute;
- left: 0px;
- top: 0px;
- z-index: -1;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
 }
+
 
 .title {
   position: absolute;
   color: white;
   top: 40px;
   left: 50px;
-  font-size: 4em;
-  font-family: Helvetica;
-  text-shadow: 2px 2px 4px #000000;
 }
 
 .line {
@@ -41,10 +39,8 @@ body {
 .organization {
   position: relative;
   color: white;
-  font-size: 2em;
   top: 200px;
   text-shadow: 2px 2px 4px #000000;
-
 }
 
 .students {
@@ -52,7 +48,6 @@ body {
   top: 250px;
   margin: auto;
   color: white;
-  font-size: 1.7em;
   width: 500px;
   font-weight: lighter;
   opacity: 0.7;
@@ -76,12 +71,11 @@ body {
 }
 
 .iphone1 {
-    width: 80%;
+  width: 80%;
 }
 
 .iphone2 {
   width:80%;
-
 }
 
 .item2 { grid-area: phone1;}
@@ -92,9 +86,9 @@ body {
 .grid-container2 {
   display: grid;
   grid-template-areas:
-    'phone1 phone1 phone2 phone2 focus focus'
-    'phone1 phone1 phone2 phone2 life life'
-    'phone1 phone1 phone2 phone2 life life';
+  'phone1 phone1 phone2 phone2 focus focus'
+  'phone1 phone1 phone2 phone2 life life'
+  'phone1 phone1 phone2 phone2 life life';
   grid-gap: 10px;
   padding: 10px;
   padding-top: 50%;
@@ -107,19 +101,16 @@ body {
 }
 
 .focus {
-
-  font-size: 2em;
   font-family: Times;
   padding-right: 1em;
 }
+
 .life{
 
-    font-weight: lighter;
-    font-size: 1em;
-    opacity: 0.8;
-    font-family:Helvetica;
+  font-weight: lighter;
+  opacity: 0.8;
+  font-family: Helvetica;
 }
-
 
 .planning {
   position: relative;
@@ -156,15 +147,6 @@ body {
   position: relative;
 }
 
-
-.box {
-  position: absolute;
-  width: 80%;
-  height: 750px;
-  left: 10%;
-  background-color: #fffcf3;
-}
-
 .lorem1{
   position: absolute;
   margin-top: 300px;
@@ -175,12 +157,13 @@ body {
 
 .grid-container {
   position: absolute;
-  margin-top: 10%;
   display: grid;
   grid-template-columns: auto auto auto;
   background-color: #fffcf3;
-  padding: 10px;
+  padding: 20px;
+  margin: auto;
 }
+
 .grid-item {
   padding: 20px;
   font-size: 1em;
@@ -207,7 +190,7 @@ body {
 
 .background {
   width: 100%;
-  height: 750px;
+  height: 400px;
   background-color: #fffcf3;
 }
 
@@ -242,9 +225,9 @@ body {
   padding-top: 30px;
   text-decoration: none;
   -webkit-box-shadow: 10px 10px 130px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 130px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 130px 0px rgba(0,0,0,0.75);
-border-radius: 50px;
+  -moz-box-shadow: 10px 10px 130px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 130px 0px rgba(0,0,0,0.75);
+  border-radius: 50px;
 }
 
 .socialmedia {
@@ -254,18 +237,48 @@ border-radius: 50px;
   margin-top: 300px;
   margin-bottom: 65px;
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1700px) {
   html, body{
     position: relative;
     display: table;
     width: 90%;
     margin: 0 auto;
   }
-  .life {
-    font-size: 1.8em;
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1699) {
+  .organization {
+    font-size: 2.5em;
+    top:180px;
   }
-@media screen and (max-width: 768px) {
+  .students{
+    font-size: 1.5em;
+    top:180px;
+  }
+  .life {
+    font-size: 1.5em;
+  }
+  .focus {
+    font-size: 2.5em;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .organization {
+    font-size: 1.8em;
+    top:180px;
+  }
+  .students{
+    font-size: 1.2em;
+    top:180px;
+  }
+  .life {
+    font-size: 1.2em;
+  }
+  .focus {
+    font-size: 1.8em;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 767px) {
   .organization {
     font-size: 1.5em;
     top:180px;
@@ -275,18 +288,16 @@ border-radius: 50px;
     top:180px;
   }
   .life {
-    font-size: 1em;
-}
-.focus {
-
-  font-size: 1.5em;
-}
+    font-size: 1.2em;
+  }
+  .focus {
+    font-size: 1.5em;
+  }
 }
 @media screen and (max-width: 600px) {
   .title {
     top: 30px;
   }
-
   .organization {
     font-size: 1.2em;
     top: 60px;
@@ -294,19 +305,18 @@ border-radius: 50px;
   .students{
     font-size: 0.9em;
     top:60px;
-    width: 50%;
+    width: auto;
+    padding: 0 40px;
   }
   .grid-item {
     font-size: 0.7em;
   }
-
   .grid-item-1 {
     font-size: 1.8em;
   }
   .background{
     height: 400px;
   }
-
   .school {
     padding-top: 30px;
     font-size: 2em;
@@ -333,16 +343,17 @@ border-radius: 50px;
     padding-top: 50%;
     padding-left: 10px;
   }
-.page3 .banner{
-  display: none;
-}
-.download{
-  font-size: 0.7em;
-  height: 40px;
-}
-.focus {
-
-  font-size: 1.2em;
-}
-
+  .page3 .banner{
+    display: none;
+  }
+  .download{
+    font-size: 0.7em;
+    height: 40px;
+  }
+  .focus {
+    font-size: 1.2em;
+  }
+  .life {
+    font-size: 0.9em;
+  }
 }
